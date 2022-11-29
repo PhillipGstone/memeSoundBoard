@@ -5,71 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" type="text/css" rel="stylesheet">
-    <title>Document</title>
+    <title>Meme Soundboard</title>
 </head>
 <body>
     <div class="h1andpics">
         <!-- <img src="images/.png" alt=" " class="h1pics"> -->
-        <h1>Random Soundboard</h1>
+        <h1>Meme Soundboard.</h1>
         <!-- <img src="images/.png" alt=" " class="h1pics"> -->
     </div>
     <!-------------------- BUTTONS ----------------->
     <div class="keys">
         <div class="buttonBackground">
-            <button data-key="65" class="daSound" onclick="sound1Audio();">
+            <button data-key="65" class="key daSound " onclick="sound1Audio();">
                 <kbd>A:</kbd>
                 <span class="sound">Sound 1</span>
             </button>
         </div>
         <div class="buttonBackground">
-            <button data-key="83" class="daSound" onclick="sound2Audio();">
+            <button data-key="83" class="key daSound" onclick="sound2Audio();">
                 <kbd>S:</kbd>
                 <span class="sound">Sound 2</span>
             </button>
         </div>
         <div class="buttonBackground">
-            <button data-key="68" class="daSound" onclick="sound3Audio();">
+            <button data-key="68" class="key daSound" onclick="sound3Audio();">
                 <kbd>D:</kbd>
                 <span class="sound">Sound 3</span>
             </button>
         </div>
         <div class="buttonBackground">
-            <button data-key="70" class="daSound" onclick="sound4Audio();">
+            <button data-key="70" class="key daSound" onclick="sound4Audio();">
                 <kbd>F:</kbd>
                 <span class="sound">Sound 4</span>
             </button>
         </div>
         <div class="buttonBackground">
-        <button data-key="71" class="daSound" onclick="sound5Audio();">
+        <button data-key="71" class="key daSound" onclick="sound5Audio();">
             <kbd>G:</kbd>
             <span class="sound">Sound 5</span>
         </button>
         </div>
         <div class="buttonBackground">
-        <button data-key="72" class="daSound" onclick="sound6Audio();">
+        <button data-key="72" class="key daSound" onclick="sound6Audio();">
             <kbd>H:</kbd>
             <span class="sound">Sound 6</span>
         </button>
         </div>
         <div class="buttonBackground">
-            <button data-key="74" class="daSound" onclick="sound7Audio();">
+            <button data-key="74" class="key daSound" onclick="sound7Audio();">
                 <kbd>J:</kbd>
                 <span class="sound">Sound 7</span>
             </button>
             </div>
             <div class="buttonBackground">
-            <button data-key="75" class="daSound" onclick="sound8Audio();">
+            <button data-key="75" class="key daSound" onclick="sound8Audio();">
                 <kbd>K:</kbd>
                 <span class="sound">Sound 8</span>
             </button>
             </div>
             <div class="buttonBackground">
-            <button data-key="76" class="daSound" onclick="sound9Audio();">
+            <button data-key="76" class="key daSound" onclick="sound9Audio();">
                 <kbd>L:</kbd>
                 <span class="sound">Sound 9</span>
             </button>
             </div>
     </div>
+
+    <audio data-key="65" src="sounds/Deez Nuts.mp3" ></audio>
+    <audio data-key="83" src="sounds/emotional damage.mp3"></audio>
+    <audio data-key="68" src="sounds/I can smell the failure.mp3"></audio>
+    <audio data-key="70" src="sounds/Fatality.mp3"></audio>
+    <audio data-key="71" src="sounds/KEKW.mp3"></audio>
+    <audio data-key="72" src="sounds/Tadaah.mp3"></audio>
+    <audio data-key="74" src="sounds/What are you.mp3"></audio>
+    <audio data-key="75" src="sounds/What are you doing in my Swamp.mp3"></audio>
+    <audio data-key="76" src="sounds/You what.mp3"></audio>
+
+    <script src="script.js"></script>
 </body>
 </html>
 

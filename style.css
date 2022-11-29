@@ -9,7 +9,8 @@ body {
 }
 h1 {
     color: rgb(50, 30, 139);
-    font-size: 50px;
+    background-color: rgb(128, 128, 128, 0.4);
+    font-size: 60px;
     font-family: Arial;
     text-shadow: 3px 3px #0aa0e6;
     display: flex;
@@ -19,7 +20,7 @@ h1 {
 }
 @media (orientation: portrait) {
     h1 {
-        font-size: 28px;
+        font-size: 40px;
         text-shadow: 2px 2px #FF0000;
     }
 }
@@ -72,7 +73,7 @@ h1 {
     text-shadow: 2px 2px black;
     cursor: pointer;
 }
-.daSound:active { /* .playing, */
+.playing { 
     transform:scale(1.1);
     background-color: rgb(78, 37, 8) !important;
     border-style: solid;
